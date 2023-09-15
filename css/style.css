@@ -111,6 +111,18 @@ a {
     padding: 0 16px;
 }
 
+.button-blue{
+    color: white;
+    background-color: var(--blue);
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0 36px;
+    font-size: 16px;
+    max-width: 65%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
 /* debug */
 
 .debug .container,
@@ -166,6 +178,11 @@ a {
 MAIN 
 */
 
+.section-features{
+    padding-top: 48px;
+    padding-bottom: 72px;
+}
+
 .section-features .row{
     gap: 24px;
 }
@@ -179,24 +196,24 @@ MAIN
 .features-card{
     background-color: var(--light-blue);
     border-radius: 20px;
-    padding: 32px 20px 0 20px;
+    padding: 26px 20px 0px 20px;
     font-weight: bold;
 }
 
 .card-title{
     color: var(--blue);
     padding-bottom: 24px;
+    font-size: 18px;
 }
 
 .card-body{
     color: #63798C;
-    padding-bottom: 32px;
     line-height: 30px;
+    padding-bottom: 28px;
 }
 
 .section-features .col-8 > .card-body{
     text-align: left;
-    width: calc(100% - 64px);
 }
 
 .section-features .col-8{
@@ -207,6 +224,13 @@ MAIN
 .section-features .col-4{
     flex-basis: calc((100% - 48px) / 3);
     text-align: center;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 48px;
 }
 
 /* 

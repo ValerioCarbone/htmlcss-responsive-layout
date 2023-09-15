@@ -80,14 +80,21 @@ a {
 
 /* utility classes */
 
-.justify-between {
+.justifycon-between {
     justify-content: space-between;
+}
+
+.justifycon-center{
+    justify-content: center;
 }
 
 .align-items-center {
     align-items: center;
 }
 
+.align-items-flxend{
+    align-items: flex-end;
+}
 
 /* component classes */
 

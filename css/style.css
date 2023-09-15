@@ -118,13 +118,13 @@ a {
 }
 
 .navbar-list-item{
-    display: none;
+    /* display: none; */
 }
 
 .icon-burger{
     color: var(--light);
     font-size: 16px;
-    /* display: none; */
+    display: none;
 }
 
 /* debug */

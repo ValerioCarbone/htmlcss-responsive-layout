@@ -66,8 +66,16 @@ a {
     flex-basis: calc((100% / 12) * 4);
 }
 
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+
 .col-6 {
     flex-basis: calc((100% / 12) * 6);
+}
+
+.col-7{
+    flex-basis: calc((100% / 12) * 7);
 }
 
 .col-8 {
@@ -102,7 +110,7 @@ a {
 
 /* component classes */
 
-.button {
+.button-black {
     color: black;
     line-height: 38px;
     text-align: center;
@@ -122,6 +130,18 @@ a {
     text-align: center;
     letter-spacing: 2px;
 }
+
+.button-black-purple{
+    border-radius: 50%;
+    color: black;
+    background-color: var(--purple);
+    padding: 12px;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+
 
 /* debug */
 
@@ -176,6 +196,12 @@ a {
 
 /* 
 MAIN 
+*/
+
+
+
+/* 
+FEATURES 
 */
 
 .section-features{
@@ -254,6 +280,10 @@ MAIN
     font-weight: bold;
 }
 
+/* 
+PLANNING 
+*/
+
 .section-planning{
     background-color: var(--purple);
 }
@@ -269,7 +299,7 @@ MAIN
 }
 
 .section-img{
-    padding: 70px 20px 110px;
+    padding: 70px 0 110px;
 }
 
 .section-planning .section-body{
@@ -278,6 +308,34 @@ MAIN
 
 .section-planning .container-small{
     padding: 50px 0;
+}
+
+.planning-card{
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+}
+
+.planning-card .card-body{
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+}
+
+.planning-card .card-img{
+    max-width: 75%;
+    padding-bottom: 20px;
+}
+
+.section-planning .col-7{
+    padding: 0 50px;
+}
+
+.planning-card .card-title{
+    font-weight: bold;
 }
 
 /* 

@@ -43,7 +43,7 @@ a {
 /* layouts */
 
 .container {
-    max-width: 1142px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -189,8 +189,9 @@ MAIN
     padding: 0 30px;
 }
 
-.section-features .row{
+.section-features .container >.row{
     gap: 24px;
+    padding-bottom: 40px;
 }
 
 .card-icon{
@@ -202,14 +203,17 @@ MAIN
 .features-card{
     background-color: var(--light-blue);
     border-radius: 20px;
-    padding: 30px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     font-weight: bold;
 }
 
 .card-title{
-    color: var(--blue);
     padding-bottom: 24px;
     font-size: 18px;
+}
+
+.section-features .card-title{
+    color: var(--blue);
 }
 
 .card-body{
@@ -239,12 +243,41 @@ MAIN
     padding: 0 20px;
 }
 
-.card-img.col-6 > img {
+.section-features .card-img.col-6 > img {
     width: 250px;
 }
 
 .download-card{
-    padding: 22px 20px 0 20px;
+    padding: 28px 22px 0 22px;
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.section-planning{
+    background-color: var(--purple);
+}
+
+.section-body-title{
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+
+.section-body-content{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.section-img{
+    padding: 70px 20px 110px;
+}
+
+.section-planning .section-body{
+    color: white;
+}
+
+.section-planning .container-small{
+    padding: 50px 0;
 }
 
 /* 

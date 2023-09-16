@@ -306,7 +306,7 @@ PLANNING
     color: white;
 }
 
-.section-planning .container-small{
+.section-planning{
     padding: 50px 0;
 }
 
@@ -366,6 +366,24 @@ MEDIA QUERY
     .features-card{
         padding: 18px 6px 0px 6px;
     }
+
+    .section-planning .col-5,
+    .section-planning .col-7{
+        flex-basis: 100%;
+    }
+    .section-planning .container-small > .row{
+    gap: 30px; 
+    }
+
+    .container{
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
+    .container-small{
+        max-width: 100%;
+        padding: 0 30px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -376,5 +394,9 @@ MEDIA QUERY
     .card-body{
         font-size: 14px;
         line-height: 26px;
+    }
+
+    .section-planning .col-7{
+        padding: 0;
     }
 } 

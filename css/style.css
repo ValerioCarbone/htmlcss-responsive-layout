@@ -64,7 +64,7 @@ cite {
 }
 
 .container-xs{
-    max-width: 570px;
+    max-width: 650px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -623,7 +623,7 @@ CTA
 
 .section-cta .section-title {
     color: white;
-    font-size: 52px;
+    font-size: 40px;
 }
 
 .cta {

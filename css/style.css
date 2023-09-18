@@ -49,6 +49,7 @@ cite {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .container-medium {
@@ -229,11 +230,6 @@ FEATURES
 }
 
 
-.section-features .container,
-.navbar .container {
-    padding: 0 30px;
-}
-
 .section-features .container>.row {
     gap: 24px;
     padding-bottom: 40px;
@@ -379,9 +375,6 @@ PLANNING
 TESTIMONIALS 
 */
 
-.section-testimonials .container {
-    padding: 0 30px;
-}
 
 .section-testimonials {
     padding: 50px 0 100px;
@@ -471,6 +464,7 @@ BENEFITS
 .section-benefits .card {
     background-color: white;
     color: var(--purple);
+    padding: 30px;
 }
 
 .card-number {
@@ -486,8 +480,9 @@ BENEFITS
 
 .section-benefits .card-body {
     color: black;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
 }
 
 .section-benefits .row{
@@ -497,6 +492,11 @@ BENEFITS
 
 .section-benefits{
     padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-benefits .card-title{
+    font-size: 24px;
 }
 
 

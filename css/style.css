@@ -587,13 +587,12 @@ ABOUT US
 
 .section-about-us .col-4 figure {
     position: relative;
-    width: 250px;
 }
 
 .section-about-us .quote-icon-left {
     position: absolute;
-    right: -5px;
-    top: -20px;
+    right: 0;
+    top: 0;
     color: var(--purple);
     font-size: 70px;
 }
@@ -758,6 +757,9 @@ MEDIA QUERY
 
     .section-about-us .container-medium {
         padding: 0 30px;
+    }
+    .about-us-img{
+        width: 100%;
     }
 }
 

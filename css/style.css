@@ -53,13 +53,15 @@ cite {
 }
 
 .container-medium {
-    max-width: 1060px;
+    max-width: 1120px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .container-small {
     max-width: 890px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .row {
@@ -156,7 +158,7 @@ cite {
     border-radius: 20px;
     color: white;
     background-color: var(--purple);
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     font-size: 14px;
 }
@@ -331,7 +333,7 @@ PLANNING
     padding: 50px 0;
 }
 
-.section-title{
+.section-title {
     font-size: 30px;
 }
 
@@ -392,7 +394,7 @@ TESTIMONIALS
 }
 
 .section-testimonials .section-title {
-  color: var(--purple);
+    color: var(--purple);
 }
 
 .section-testimonials .card-container {
@@ -485,19 +487,79 @@ BENEFITS
     line-height: 28px;
 }
 
-.section-benefits .row{
+.section-benefits .row {
     gap: 30px;
     padding-top: 40px;
 }
 
-.section-benefits{
+.section-benefits {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.section-benefits .card-title{
+.section-benefits .card-title {
     font-size: 24px;
 }
+
+
+/* 
+ABOUT US 
+*/
+
+
+.section-about-us .body-text {
+    font-size: 20px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+
+.section-about-us blockquote {
+    color: var(--purple);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-about-us .linkedin-icon {
+    padding: 0 4px;
+    display: inline-block;
+}
+
+.section-about-us .button-black-purple {
+    font-size: 16px;
+}
+
+.section-about-us .section-title {
+    font-size: 48px;
+    color: var(--purple);
+    margin-bottom: 20px;
+}
+
+.section-about-us .row {
+    padding: 60px 0;
+}
+
+.about-us-img {
+    height: 250px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.section-about-us .col-3>figure {
+    position: relative;
+}
+
+.section-about-us .quote-icon-left {
+    position: absolute;
+    right: -5px;
+    top: -20px;
+    color: var(--purple);
+    font-size: 80px;
+}
+
 
 
 /* 
@@ -560,9 +622,10 @@ MEDIA QUERY
         font-size: 18px;
     }
 
-    .section-benefits .col-3{
+    .section-benefits .col-3 {
         max-width: calc((100% - 30px) / 2);
     }
+}
 
 @media screen and (max-width: 576px) {
 
@@ -584,7 +647,7 @@ MEDIA QUERY
         margin-bottom: 20px;
     }
 
-    .section-benefits .col-3{
-        max-width:100%;
+    .section-benefits .col-3 {
+        max-width: 100%;
     }
 }

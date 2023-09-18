@@ -559,7 +559,10 @@ MEDIA QUERY
     .section-body-content {
         font-size: 18px;
     }
-}
+
+    .section-benefits .col-3{
+        max-width: calc((100% - 30px) / 2);
+    }
 
 @media screen and (max-width: 576px) {
 
@@ -579,5 +582,9 @@ MEDIA QUERY
 
     .section-testimonials .testimonials-img {
         margin-bottom: 20px;
+    }
+
+    .section-benefits .col-3{
+        max-width:100%;
     }
 }

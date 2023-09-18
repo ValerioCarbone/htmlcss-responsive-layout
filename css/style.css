@@ -647,10 +647,9 @@ CTA
 
 .section-cta .button-white-purple {
     font-size: 20px;
-    max-width: 500px;
     font-weight: 600;
     line-height: 40px;
-    padding: 30px 100px;
+    padding: 30px 90px;
     white-space: nowrap;
     border-radius: 60px;
     margin: 16px 0;
